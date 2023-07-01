@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import {useInfiniteQuery, useIsMutating} from "@tanstack/react-query";
+import { useInfiniteQuery, useIsMutating } from "@tanstack/react-query";
 
 import type { UseConnectReturn } from "../types";
 
@@ -33,9 +33,7 @@ const useReactQueryConnect = (): UseConnectReturn => {
         return acc;
       }, []) || [];
 
-    const sortedTodoIds = todos.map(({ id }) => id);
-
-    return { todos, sortedTodoIds };
+    return { todos, sortedTodoIds: todos.map(({ id }) => id) };
   }, [data?.pages]);
 
   return {
