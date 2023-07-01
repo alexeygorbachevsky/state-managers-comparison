@@ -1,0 +1,36 @@
+.inputRoot {
+  width: 200px;
+  color: white !important;
+  border-bottom: 1px solid white;
+}
+
+.labelRoot {
+  color: white !important;
+}
+
+.inputDisabled {
+  cursor: not-allowed !important;
+  color: gray !important;
+  border-color: gray !important;
+}
+
+.labelDisabled {
+  color: gray !important;
+}
+
+.popupIconDisabled {
+  color: gray !important;
+}
+
+.clearIndicator {
+  color: white !important;
+}
+
+.popupIndicator {
+  color: white !important;
+}
+
+.groupHeader {
+  margin: 4px 0 8px 16px;
+  color: #777777;
+}

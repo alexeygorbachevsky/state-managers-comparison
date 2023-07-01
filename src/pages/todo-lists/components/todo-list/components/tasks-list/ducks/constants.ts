@@ -1,0 +1,1 @@
+export const MAX_TASKS_COUNT_WITHOUT_SCROLL = 4;

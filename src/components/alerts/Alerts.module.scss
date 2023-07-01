@@ -1,0 +1,19 @@
+.wrapper {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+
+  .alertClass {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+
+    max-width: 500px;
+
+    @media screen and (max-width: 432px) {
+      max-width: unset;
+      width: calc(100% - 20px);
+    }
+  }
+}

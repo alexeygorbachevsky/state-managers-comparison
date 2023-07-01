@@ -1,0 +1,11 @@
+@import "../../../styles/colors";
+
+.loaderWrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $main-background;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

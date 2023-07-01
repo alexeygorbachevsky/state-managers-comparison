@@ -1,0 +1,56 @@
+.taskWrapper {
+  margin-bottom: 4px;
+  width: 100%;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 #091e4240;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: rgba(240, 240, 240, 0.5)
+  }
+
+  .taskInputWrapper {
+    width: 190px;
+    display: flex;
+    align-items: center;
+  }
+
+  .isCheckedStatusClass {
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  .taskInputWrapperWithScroll {
+    width: 180px;
+  }
+
+  .deleteButton {
+    &:disabled {
+      cursor: not-allowed;
+    }
+
+    &:hover {
+      color: #d32f2f;
+    }
+  }
+}
+
+.taskWrapperDisabled {
+  cursor: not-allowed !important;
+  opacity: 0.25;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}

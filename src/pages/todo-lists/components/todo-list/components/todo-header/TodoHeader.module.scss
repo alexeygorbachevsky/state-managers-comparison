@@ -1,0 +1,43 @@
+.todoHeader {
+  margin-bottom: 10px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .editableTitle {
+    padding: 0 0 4px;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+    }
+  }
+
+  .editableTitleDisabled {
+    cursor: not-allowed;
+
+    &:hover {
+      border-bottom: 1px solid transparent;
+    }
+  }
+
+  .deleteButton {
+    margin-left: 12px;
+
+    &:hover {
+      color: #d32f2f;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.25;
+    }
+  }
+}
+
+.todoHeaderDisabled {
+  cursor: not-allowed !important;
+  opacity: 0.25;
+}

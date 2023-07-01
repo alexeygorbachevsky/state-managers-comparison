@@ -1,0 +1,49 @@
+@import "../../styles/sizes";
+@import "../../styles/colors";
+.app {
+  min-height: 100vh;
+  background-color: $main-background;
+
+
+  .container {
+    padding: 0 8px !important;
+
+    .grid {
+      margin-top: 0;
+      padding: calc(#{$header-size}px + 20px) 0 44px 0;
+      justify-content: center;
+
+      @media screen and (max-width: 1024px) {
+        & {
+          padding: 48px 0 24px 0;
+        }
+      }
+
+    }
+  }
+
+
+  .loadingStateWrapper {
+    height: 100vh;
+  }
+
+  .errorWrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    .errorText {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+  }
+
+}

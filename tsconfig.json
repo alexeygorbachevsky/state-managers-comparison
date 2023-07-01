@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "baseUrl": "src", // This is specified for "paths"
+    "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+    "isolatedModules": true, // Unconditionally emit imports for unresolved files
+    "jsx": "react-jsx", // Support JSX in .tsx files
+    "module": "commonjs", // Specify module code generation
+    "moduleResolution": "node", // Resolve modules using Node.js style
+    "noEmit": true, // Do not emit output (meaning do not compile code, only perform type checking)
+    "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement
+    "noImplicitAny": true, //  Issue an error on any variables whose type is implicitly inferred as any
+    "paths": {
+      "api/*": ["api/*"],
+      "assets/*": ["assets/*"],
+      "components": ["components"],
+      "constants/*": ["constants/*"],
+      "helpers/*": ["helpers/*"],
+      "hooks": ["hooks"],
+      "pages/*": ["pages/*"],
+      "selectors/*": ["selectors/*"],
+      "store": ["store"],
+    },
+    "resolveJsonModule": true,  // Include modules imported with .json extension
+    "skipLibCheck": true, // Skip type checking of all declaration files
+    "strict": true, // Enable all strict type checking options
+    // ts issue with indexSignatures and strictNullChecks ->  https://github.com/microsoft/TypeScript/issues/13778
+    "strictNullChecks": true, // Report type error if you try to use undefined or null where a concrete value is expected
+    "target": "ES6", // Specify ECMAScript target version
+  },
+  "include": [
+    "src"
+  ]
+}

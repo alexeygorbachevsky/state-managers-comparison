@@ -1,0 +1,46 @@
+.toolbar {
+  background-color: #3f51b5;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mobileToolbar {
+  padding: 0 24px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #3f51b5;
+}
+
+
+.settingsButtonWrapper {
+  display: flex;
+  align-items: center;
+
+  .settingsButton {
+    margin-left: 10px;
+  }
+}
+
+.sidebarBox {
+  padding: 40px 0 0 20px;
+  height: 100%;
+  width: 250px;
+
+  background-color: #3f51b5;
+
+  .closeSidebarButton {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    color: white;
+  }
+
+  .mobileSwitch {
+    margin-top: 20px;
+  }
+}

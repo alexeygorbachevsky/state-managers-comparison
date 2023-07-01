@@ -1,0 +1,21 @@
+@import "../../../../styles/colors";
+
+.notImplementedWrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $main-background;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+  .text {
+    margin-top: 10px;
+  }
+}

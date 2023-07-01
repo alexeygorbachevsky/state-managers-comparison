@@ -1,0 +1,70 @@
+.settingsButtonWrapper {
+  display: flex;
+  align-items: center;
+
+  .notificationButton {
+    margin: 0 10px;
+  }
+}
+
+.githubButtonDisabled {
+  cursor: not-allowed !important;
+}
+
+.selectClass {
+  color: white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.selectLabel {
+  color: white !important;
+}
+
+.selectIcon {
+  color: white !important;
+}
+
+.sidebarBox {
+  padding: 40px 0 0 40px;
+  height: 100%;
+  width: 250px;
+
+  background-color: #3f51b5;
+
+  .closeSidebarButton {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: white;
+  }
+}
+
+.linksList {
+  padding-left: 5px;
+  list-style: none;
+
+  .link {
+    margin-bottom: 8px;
+    padding-left: 5px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+
+    &::before {
+      margin-right: 4px;
+      content: "• ";
+      color: white;
+    }
+
+    .linkText {
+      color: white;
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}

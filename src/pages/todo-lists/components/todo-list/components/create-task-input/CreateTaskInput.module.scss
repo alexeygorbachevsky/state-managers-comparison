@@ -1,0 +1,28 @@
+.createTaskWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .todoInput {
+    margin-bottom: 10px;
+    margin-left: 12px;
+  }
+
+  .todoLabel {
+    margin-left: 12px;
+  }
+
+  .deleteButton {
+    margin-left: 12px;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.25;
+    }
+  }
+}
+
+.createTaskWrapperDisabled {
+  cursor: not-allowed;
+  opacity: 0.25;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+  .inputRoot {
+    width: 200px;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+  }
+
+  .inputDisabled {
+    cursor: not-allowed !important;
+    color: gray !important;
+    border-color: gray !important;
+  }
+
+  .labelRoot {
+    color: white !important;
+  }
+
+  .labelDisabled {
+    color: gray !important;
+  }
+
+  .iconButton {
+    margin: 0 0 4px 4px !important;
+    padding: 0 !important;
+
+    .addIcon {
+      color: white;
+    }
+
+    .addIconDisabled {
+      color: gray;
+    }
+  }
+}
+
+.mobileWrapper {
+  margin: 20px 0;
+}

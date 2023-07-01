@@ -1,0 +1,57 @@
+.tasksListWrapper {
+  cursor: initial;
+  height: 210px;
+  overflow-y: auto;
+
+  //background-color: #ebecf0;
+  background-color: #f8f8fa;
+  border-radius: 3px;
+  padding: 4px;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-corner {
+    opacity: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #aaa;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #e1dcdc;
+  }
+}
+
+.noTasksWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    margin: 10px 0 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+.disabledNoTasksWrapper {
+  cursor: not-allowed;
+  opacity: 0.25;
+}
+
+.taskListButtonsWrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
