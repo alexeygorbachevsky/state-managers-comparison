@@ -32,6 +32,7 @@ See links below for ssl configuration.
 
 ### SSL configuration links
 - https://gist.github.com/cecilemuller/9492b848eb8fe46d462abeb26656c4f8
+- https://mswjs.io/docs/recipes/using-local-https#trust-certificate-on-browser-level
 - https://github.com/FiloSottile/mkcert
 - https://chocolatey.org/install
 - https://www.freecodecamp.org/news/how-to-set-up-https-locally-with-create-react-app/
