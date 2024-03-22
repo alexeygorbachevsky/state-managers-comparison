@@ -27,10 +27,11 @@ git clone {repository URL}
 
 ## Configure SSL
 To run the application locally, you should configure ssl, since the service worker will not work without it.
-You need to create a `.cert` folder in the root directory of the repo and put `cert.pem` and `key.pem` in it.
+You need to create a `.cert` folder in the root directory of the repo and put `localhost.crt` and `localhost.key` in it.
 See links below for ssl configuration.
 
 ### SSL configuration links
+- https://gist.github.com/cecilemuller/9492b848eb8fe46d462abeb26656c4f8
 - https://github.com/FiloSottile/mkcert
 - https://chocolatey.org/install
 - https://www.freecodecamp.org/news/how-to-set-up-https-locally-with-create-react-app/
